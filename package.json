@@ -1,5 +1,5 @@
 {
-  "name": "angular2-actioncable",
+  "name": "@loanlink/angular2-actioncable",
   "version": "6.0.3",
   "description": "Simple and flexible integration for ActionCable and Angular applications",
   "main": "angular2-actioncable.js",

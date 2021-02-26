@@ -1,8 +1,8 @@
 {
-  "name": "angular2-actioncable",
+  "name": "@loanlink/angular2-actioncable",
   "version": "6.0.3",
   "description": "Simple and flexible integration for ActionCable and Angular applications",
-  "main": "bundles/angular2-actioncable.umd.js",
+  "main": "bundles/loanlink-angular2-actioncable.umd.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/LoanLink/angular2-actioncable.git"
@@ -20,13 +20,13 @@
     "@angular/core": ">9.0.0",
     "rxjs": ">6.0.0"
   },
-  "module": "fesm5/angular2-actioncable.js",
-  "es2015": "fesm2015/angular2-actioncable.js",
-  "esm5": "esm5/angular2-actioncable.js",
-  "esm2015": "esm2015/angular2-actioncable.js",
-  "fesm5": "fesm5/angular2-actioncable.js",
-  "fesm2015": "fesm2015/angular2-actioncable.js",
-  "typings": "angular2-actioncable.d.ts",
-  "metadata": "angular2-actioncable.metadata.json",
+  "module": "fesm5/loanlink-angular2-actioncable.js",
+  "es2015": "fesm2015/loanlink-angular2-actioncable.js",
+  "esm5": "esm5/loanlink-angular2-actioncable.js",
+  "esm2015": "esm2015/loanlink-angular2-actioncable.js",
+  "fesm5": "fesm5/loanlink-angular2-actioncable.js",
+  "fesm2015": "fesm2015/loanlink-angular2-actioncable.js",
+  "typings": "loanlink-angular2-actioncable.d.ts",
+  "metadata": "loanlink-angular2-actioncable.metadata.json",
   "sideEffects": false
 }
