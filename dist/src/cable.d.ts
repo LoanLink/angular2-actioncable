@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 export declare class Cable {
     url: string;
-    params: any;
+    params?: any;
     baseCable: any;
     private disconnectedSource;
     constructor(url: string, params?: any);

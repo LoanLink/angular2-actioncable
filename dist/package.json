@@ -1,1 +1,32 @@
-{"name":"angular2-actioncable","version":"6.0.2","description":"Simple and flexible integration for ActionCable and Angular applications","main":"bundles/angular2-actioncable.umd.js","scripts":{"build":"ng-packagr"},"repository":"loanlink/angular2-actioncable","keywords":["actioncable","angular","angular-actioncable","angular-cable","angular2","angular4","angular5","angular6","angular2-actioncable","angular2-cable","cable","ngx","ng-actioncable","ng-cable","ng-rails","ng2-actioncable","ng2-cable","ng2-rails","rails","websocket"],"author":{"name":"Nolan Lancaster","email":"nolancaster@gmail.com"},"license":"MIT","dependencies":{"@rails/actioncable":"^6.0.3"},"peerDependencies":{"@angular/core":">9.0.0","rxjs":">6.0.0"},"devDependencies":{"@angular/compiler":"^9.1.0","@angular/compiler-cli":"^9.1.0","@angular/core":"^9.1.0","ng-packagr":"^1.7.0","rxjs":"^6.5.4","typescript":"~2.8.x","zone.js":"~0.10.3"},"module":"angular2-actioncable.es5.js","es2015":"angular2-actioncable.js","typings":"angular2-actioncable.d.ts","metadata":"angular2-actioncable.metadata.json"}
+{
+  "name": "angular2-actioncable",
+  "version": "6.0.3",
+  "description": "Simple and flexible integration for ActionCable and Angular applications",
+  "main": "bundles/angular2-actioncable.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LoanLink/angular2-actioncable.git"
+  },
+  "author": {
+    "name": "Nolan Lancaster",
+    "email": "nolancaster@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@rails/actioncable": "^6.0.3",
+    "tslib": "^1.10.0"
+  },
+  "peerDependencies": {
+    "@angular/core": ">9.0.0",
+    "rxjs": ">6.0.0"
+  },
+  "module": "fesm5/angular2-actioncable.js",
+  "es2015": "fesm2015/angular2-actioncable.js",
+  "esm5": "esm5/angular2-actioncable.js",
+  "esm2015": "esm2015/angular2-actioncable.js",
+  "fesm5": "fesm5/angular2-actioncable.js",
+  "fesm2015": "fesm2015/angular2-actioncable.js",
+  "typings": "angular2-actioncable.d.ts",
+  "metadata": "angular2-actioncable.metadata.json",
+  "sideEffects": false
+}

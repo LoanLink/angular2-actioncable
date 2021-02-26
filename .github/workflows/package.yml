@@ -1,0 +1,30 @@
+name: Publish Package
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup
+        uses: actions/setup-node@v1
+        with:
+            node-version: '12.x'
+            registry-url: https://npm.pkg.github.com/
+            scope: '@loanlink'
+      - name: Install
+        run: |
+          npm install
+      - name: Build
+        run: |
+          npm run build-calc-prod
+      - name: Publish
+        working-directory: ./dist
+        run: |
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

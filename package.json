@@ -1,34 +1,12 @@
 {
   "name": "angular2-actioncable",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "Simple and flexible integration for ActionCable and Angular applications",
   "main": "angular2-actioncable.js",
-  "scripts": {
-    "build": "ng-packagr"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LoanLink/angular2-actioncable.git"
   },
-  "repository": "loanlink/angular2-actioncable",
-  "keywords": [
-    "actioncable",
-    "angular",
-    "angular-actioncable",
-    "angular-cable",
-    "angular2",
-    "angular4",
-    "angular5",
-    "angular6",
-    "angular2-actioncable",
-    "angular2-cable",
-    "cable",
-    "ngx",
-    "ng-actioncable",
-    "ng-cable",
-    "ng-rails",
-    "ng2-actioncable",
-    "ng2-cable",
-    "ng2-rails",
-    "rails",
-    "websocket"
-  ],
   "author": {
     "name": "Nolan Lancaster",
     "email": "nolancaster@gmail.com"
@@ -42,12 +20,17 @@
     "rxjs": ">6.0.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^0.900.7",
+    "@angular-devkit/build-ng-packagr": "^0.901.0",
+    "@angular/cli": "^9.1.0",
     "@angular/compiler": "^9.1.0",
     "@angular/compiler-cli": "^9.1.0",
     "@angular/core": "^9.1.0",
-    "ng-packagr": "^1.7.0",
+    "ng-packagr": "^9.1.0",
     "rxjs": "^6.5.4",
-    "typescript": "~2.8.x",
+    "ts-node": "^8.8.1",
+    "tsickle": "^0.38.1",
+    "typescript": "~3.8.3",
     "zone.js": "~0.10.3"
   }
 }

@@ -124,3 +124,13 @@ export class AppComponent implements OnInit, OnDestroy {
 unsubscribe from the ActionCable channel. You can try using version 6.0.1 of this plugin, which uses rxjs 6.4.0,
 but there are still issues with unsubscribe not being called if you combine the received Observable with another.
 This can potentially result in memory leaks.
+
+
+## FL UPDATE:
+We are using GitHub packages. Steps to be able to push a new version of package:
+1. (once ever) Generate a personal access token: https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
+2. (once ever) Log in locally using this token: https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages
+3. Before pushing a new version of the library - change the version insinde package.json file
+4. Run `ng build`
+3. Go to `dist` directory
+5. Run `npm publish --registry https://npm.pkg.github.com/LoanLink`
