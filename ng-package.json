@@ -3,7 +3,7 @@
   "lib": {
     "entryFile": "index.ts",
     "externals" : {
-      "actioncable": "actioncable"
+      "@rails/actioncable": "@rails/actioncable"
     }
   }
 }
